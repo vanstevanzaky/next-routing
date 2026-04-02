@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className={style.navbar}>
             <div className="big">
                 
-                    navbar Component
+                    Navbar 
                
             </div>
         </div>

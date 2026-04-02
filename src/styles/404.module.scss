@@ -1,0 +1,46 @@
+.error {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: #0b1220;
+  color: red;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  padding: 24px;
+  text-align: center;
+
+  &_image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  &_title {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  &_desc {
+    margin-top: 10px;
+    max-width: 520px;
+    color: #cbd5e1;
+  }
+
+  &_actions {
+    margin-top: 18px;
+  }
+
+  &_button {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
