@@ -1,22 +1,11 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-
+import TampilanLogin from "../auth/login";
 const halamanLogin = () => {
-    const {push} = useRouter();
-    const handlerLogin = () => {
-        push('/produk');
-    }
     return (
-        <div>
-            <h1>
-                Halaman Login
-            </h1>
-            <button onClick={handlerLogin}>Login</button>
-            {/* <button onClick={() => push('/produk')}>Login</button>
-            <button onClick={() => handlerLogin()}>Login</button> */}
-            <Link href="/auth/register">Ke Halaman Register</Link>
-        </div>
+        <>
+        <TampilanLogin />
+        </>
     );
+
 };
 
 export default halamanLogin;
